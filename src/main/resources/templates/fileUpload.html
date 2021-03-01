@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+<!--enctype配置表单数据构成部分,有文本，也有文件等数据-->
+<!--accept-charset规定了服务器用哪种字符集处理表单数据-->
+<!--<form th:action="@{/file/upload}" method="post"-->
+<form action="/file/upload" method="post"
+      enctype="multipart/form-data" accept-charset="UTF-8">
+    请选择文件:<input type="file" name="uploadFile">
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>

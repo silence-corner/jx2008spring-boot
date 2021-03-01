@@ -1,0 +1,71 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.homebutton{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: #FF5722;
+}
+
+.bg{
+    background-image: url("../imgs/loginBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+}
+
+.login-main{
+    width: 375px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 10px 8px 10px 3px #24211c;
+}
+
+.title{
+    text-align: center;
+}
+
+.login-icon{
+    position: absolute;
+    width: 38px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.login-form{
+    padding: 20px;
+}
+
+.layui-form-item .layui-input{
+    padding-left: 38px;
+}
+
+.login-div-input-vCode{
+    width: 50%;
+    float: left;
+}
+
+.login-div-vCode{
+    width: 30%;
+    height: 38px;
+    float: left;
+}
+
+.login-rememberPwd{
+    margin-left: -39px;
+}
+
+.login-a{
+    color: #029789;
+    float: right;
+    margin-top: 10px;
+}
